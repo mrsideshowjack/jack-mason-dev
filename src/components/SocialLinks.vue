@@ -32,5 +32,11 @@ export default {
 }
 </script>
 <style lang="css">
-
+a .social-icon-img{
+  fill: white;
+}
+a:hover .social-icon-img,
+a:focus .social-icon-img{
+  fill: var(--colour-2);
+}
 </style>
