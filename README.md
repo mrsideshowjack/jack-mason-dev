@@ -1,14 +1,11 @@
-# Default starter for Gridsome
+# Jack-Mason.dev
 
-This is the project you get when you run `gridsome create new-project`.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0527a1a0-1199-42d1-9a17-c4a2c488d918/deploy-status)](https://app.netlify.com/sites/elegant-northcutt-76972c/deploys)
 
-### 1. Install Gridsome CLI tool if you don't have
 
-`npm install --global @gridsome/cli`
+## Development
 
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+- `yarn` install dependencies
+- `yarn build` build for development into `dist/`
+- `yarn serve/develop` to start a local dev server at `http://localhost:8080`
+- `yarn lint` run eslint linter 
