@@ -1,0 +1,23 @@
+{
+  "name": "jack-mason-dev",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "serve": "gridsome develop",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "lint": "eslint \"src/**/*.+(js|vue)\" --fix"
+  },
+  "dependencies": {
+    "animejs": "^3.2.0",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-pwa": "^0.0.17"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-gridsome": "^1.4.11",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-svg-loader": "^0.16.0"
+  }
+}

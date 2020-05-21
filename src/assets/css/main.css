@@ -1,0 +1,41 @@
+:root{
+    --colour-1: #8B3FFC;
+    --colour-2: #FE7DB7;
+    --border-width:20px;
+    --body-padding:3rem;
+  }
+  body{
+    background-color: black;
+    color: white;
+    min-height: calc(100vh - (var(--body-padding) * 2) - (var(--border-width) * 2));
+    margin: var(--border-width);
+    padding: var(--body-padding);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-display: swap;
+    -webkit-font-smoothing: antialiased;
+  }
+  body:before{
+    content: '';
+    position: fixed;
+    border: var(--border-width) solid;
+    border-image-source: linear-gradient(45deg, var(--colour-1), var(--colour-2));
+    border-image-slice: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0px;
+    z-index: 1;
+    pointer-events: none
+  }
+  h1,h2,h3{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+  }
+  h1{
+    font-size: 3.5rem;
+  }
+  h2{
+    font-size: 2rem;
+    opacity: 0.7;
+  }
