@@ -1,9 +1,21 @@
 <template>
   <div class="socal-links">
-    <a :href="githubUrl"><IconGithub class="social-icon-img" /></a>
-    <a :href="twitterUrl"><IconTwitter class="social-icon-img" /></a>
-    <a :href="instagramUrl"><IconInstagram class="social-icon-img" /></a>
-    <a :href="linkedinUrl"><IconLinkedin class="social-icon-img" /></a>
+    <a
+      aria-label="Github Link"
+      :href="githubUrl"
+    ><IconGithub class="social-icon-img" /></a>
+    <a
+      aria-label="Twitter Link"
+      :href="twitterUrl"
+    ><IconTwitter class="social-icon-img" /></a>
+    <a
+      aria-label="Instagram Link"
+      :href="instagramUrl"
+    ><IconInstagram class="social-icon-img" /></a>
+    <a
+      aria-label="LinkedIn Link"
+      :href="linkedinUrl"
+    ><IconLinkedin class="social-icon-img" /></a>
   </div>
 </template>
 

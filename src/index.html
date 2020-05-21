@@ -2,7 +2,17 @@
 <html ${htmlAttrs}>
   <head>
     ${head}
+    <meta name="Description" content="Jack Mason's personal site.">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Work+Sans&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74260509-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-74260509-2');
+    </script>
+
   </head>
   <body ${bodyAttrs}>
     ${app}

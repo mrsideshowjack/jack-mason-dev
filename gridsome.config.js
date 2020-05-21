@@ -6,25 +6,27 @@
 
 module.exports = {
   siteName: 'Jack Mason Dev',
-  icon:  './static/images/icons/icon-512x512.png',
+  icon:{
+    favicon:'./static/images/icons/icon-512x512.png',
+  },
   plugins:[
     {
         use: 'gridsome-plugin-pwa',
         options: {
-            title: 'Gridsome',
+            title: 'Jack Mason',
             startUrl: '/',
-            display: 'standalone',
+            display: 'minimal-ui',
             statusBarStyle: 'default',
-            manifestPath: 'static/manifest.json',
+            manifestPath: 'manifest.json',
             disableServiceWorker: false,
             serviceWorkerPath: 'service-worker.js',
             cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
-            shortName: 'Gridsome',
-            themeColor: '#666600',
-            backgroundColor: '#ffffff',
-            icon: 'src/favicon.png',
+            shortName: 'Jack Mason',
+            themeColor: '#8b3ffc',
+            backgroundColor: '#000000',
+            icon: './static/images/icons/icon-512x512.png',
             msTileImage: '',
-            msTileColor: '#666600'
+            msTileColor: '#8b3ffc'
         }
     }
   ],
