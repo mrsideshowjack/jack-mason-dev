@@ -94,7 +94,7 @@ export default {
       }, '+=50')
       .add({
         targets: '.hero .sub-title',
-        translateX: [250, 0],
+        translateX: [25, 0],
         opacity: [0,1]
       }, '+=100')
       .add({
@@ -118,6 +118,9 @@ export default {
 <style lang="css">
 .hero{
   height: calc(100vh - var(--border-width)*2 - var(--body-padding));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .hero .avatar{
   border: 3px solid var(--colour-1);
@@ -125,6 +128,7 @@ export default {
 }
 .hero .title{
   display: flex;
+  flex-wrap: wrap-reverse;
   align-items: center;
   font-size: 3.5rem;
 }
@@ -133,10 +137,9 @@ export default {
     opacity: 0.7;
 }
 .hero .icon-chevron-down{
-    position: relative;
-    bottom: -32vh;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: auto;
+    margin-bottom: 1rem;
+    align-self: center;
 }
 .hero .title svg.icon-hand{
   fill:white;
@@ -154,5 +157,26 @@ export default {
 }
 .about li:before{
   content:'- '
+}
+
+@media only screen and (max-width: 700px) {
+  .hero{
+    text-align: center;
+    align-items: center;
+  }
+  .hero .title{
+    justify-content: center;
+    margin-top: 1rem;
+    margin-top: 2rem;
+  }
+  .hero .title h1{
+    margin:0px
+  }
+  .hero .title svg.icon-hand{
+    margin: 0.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+
 }
 </style>
