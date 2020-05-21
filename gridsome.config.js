@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'Jack Mason Dev',
+  icon:  './static/images/icons/icon-512x512.png',
   plugins:[
     {
         use: 'gridsome-plugin-pwa',
