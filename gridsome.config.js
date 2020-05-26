@@ -20,7 +20,7 @@ module.exports = {
             manifestPath: 'manifest.json',
             disableServiceWorker: false,
             serviceWorkerPath: 'service-worker.js',
-            cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
+            cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg,ttf',
             shortName: 'Jack Mason',
             themeColor: '#8b3ffc',
             backgroundColor: '#000000',
