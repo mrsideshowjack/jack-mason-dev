@@ -18,6 +18,7 @@
     </section>
 
     <About />
+    <Projects />
   </main>
 </template>
 
@@ -26,12 +27,14 @@ import IconHand from '~/assets/img/icons/icon-hand.svg'
 import IconChevronDown from '~/assets/img/icons/icon-chevron-down.svg'
 import SocialLinks from '~/components/SocialLinks.vue'
 import About from '~/components/About.vue'
+import Projects from '~/components/Projects.vue'
 export default {
   components: {
     SocialLinks,
     IconHand,
     IconChevronDown,
-    About
+    About,
+    Projects
   },
   mounted(){
     this.animWave();

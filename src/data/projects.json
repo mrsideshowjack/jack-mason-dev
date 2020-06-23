@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Ikura",
+        "href": "https://ikura.netlify.app/",
+        "wip": true,
+        "date": "2020/05",
+        "description": "A side project I made to help me learn Japanese counting words. 🔰",
+        "tags": ["Vue", "PWA", "vuetify"]
+    },
+    {
+        "id": 2,
+        "title": "Jack-Mason.dev",
+        "href": "https://github.com/mrsideshowjack/jack-mason-dev",
+        "wip": false,
+        "date": "2020",
+        "description": "The website you're looking at right now, do you like it?",
+        "tags": ["Vue", "Gridsome", "animeJS", "PWA", "Netlify"]
+    }
+]

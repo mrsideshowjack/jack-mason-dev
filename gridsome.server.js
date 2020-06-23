@@ -5,12 +5,23 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-module.exports = function (api) {
-  api.loadSource(({ addCollection }) => {
-    // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
-  })
+const projects = require('./src/data/projects.json')
 
-  api.createPages(({ createPage }) => {
-    // Use the Pages API here: https://gridsome.org/docs/pages-api/
+module.exports = function (api) {
+  api.loadSource(store => {
+    const contentType = store.addCollection({
+      typeName: 'Projects'
+    })
+
+    for (const item of projects) {
+      contentType.addNode({
+        title: item.title,
+        href: item.href,
+        wip: item.wip,
+        date: item.date,
+        description: item.description,
+        tags: item.tags,
+      })
+    }
   })
 }

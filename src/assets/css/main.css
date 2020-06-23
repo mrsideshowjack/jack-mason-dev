@@ -1,6 +1,8 @@
 :root{
     --colour-1: #9146ff;
     --colour-2: #FE7DB7;
+    --colour-1-rgb: 145, 70, 255;
+    --colour-2-rgb: 254, 125, 183;
     --border-width:20px;
     --body-padding:3rem;
   }
