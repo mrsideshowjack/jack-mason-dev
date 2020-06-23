@@ -4,6 +4,7 @@
   "scripts": {
     "build": "gridsome build",
     "serve": "gridsome develop",
+    "start": "gridsome develop",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
     "lint": "eslint \"src/**/*.+(js|vue)\" --fix"
