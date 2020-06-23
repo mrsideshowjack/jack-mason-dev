@@ -83,7 +83,7 @@ export default {
 .projects .project .wip{
     margin: 0.2rem;
     background-color: var(--colour-2);
-    color: white;
+    color: black;
     padding: 0.4rem;
     border-radius: 0.6rem;
 }

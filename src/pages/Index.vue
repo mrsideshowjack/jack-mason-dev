@@ -6,6 +6,7 @@
         alt="Me"
         src="~/assets/img/avatar.min.jpg"
         width="135"
+        height="135"
       />
 
       <span class="title"><h1>Hi, I’m Jack </h1><IconHand class="icon-hand" /></span>
