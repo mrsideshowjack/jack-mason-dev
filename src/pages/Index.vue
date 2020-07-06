@@ -1,5 +1,6 @@
 <template>
   <main>
+    <Border />
     <section class="hero">
       <g-image
         class="avatar"
@@ -26,6 +27,7 @@
 <script>
 import IconHand from '~/assets/img/icons/icon-hand.svg'
 import IconChevronDown from '~/assets/img/icons/icon-chevron-down.svg'
+import Border from '~/components/Border.vue'
 import SocialLinks from '~/components/SocialLinks.vue'
 import About from '~/components/About.vue'
 import Projects from '~/components/Projects.vue'
@@ -34,6 +36,7 @@ export default {
     SocialLinks,
     IconHand,
     IconChevronDown,
+    Border,
     About,
     Projects
   },

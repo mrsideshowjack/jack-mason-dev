@@ -3,7 +3,7 @@
     --colour-2: #FE7DB7;
     --colour-1-rgb: 145, 70, 255;
     --colour-2-rgb: 254, 125, 183;
-    --border-width:20px;
+    --border-width:40px;
     --body-padding:3rem;
   }
   @font-face {
@@ -25,7 +25,7 @@
     font-family: 'IBM Plex Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
-  body:before{
+  /* body:before{
     content: '';
     position: fixed;
     border: var(--border-width) solid;
@@ -38,7 +38,7 @@
     margin: 0px;
     z-index: 1;
     pointer-events: none
-  }
+  } */
   h1,h2,h3{
     font-family: 'Work Sans', sans-serif;
     font-weight: normal;
