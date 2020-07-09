@@ -1,5 +1,9 @@
 <template>
   <section class="border">
+    <!-- Use css border as backup -->
+    <i class="border-css" />
+
+    <!-- Svg border with each side as a line for animations -->
     <svg
       class="border-svg"
       height="100%"
@@ -84,11 +88,30 @@ export default {
             targets: '.border-svg .line-left',
             strokeDashoffset: [this.$anime.setDashoffset, 0],
             })
+            .add({
+            targets: '.border-css',
+            opacity: 1
+            })
         }
     }
 }
 </script>
 <style lang="css" scoped>
+.border-css{
+    opacity: 0;
+    content: '';
+    position: fixed;
+    border: calc(var(--border-width)/2) solid;
+    border-image-source: linear-gradient(45deg, var(--colour-1), var(--colour-2));
+    border-image-slice: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0px;
+    z-index: 1;
+    pointer-events: none;
+}
 .border svg.border-svg{
     margin: 0;
     position: fixed;

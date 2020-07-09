@@ -25,20 +25,6 @@
     font-family: 'IBM Plex Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
-  /* body:before{
-    content: '';
-    position: fixed;
-    border: var(--border-width) solid;
-    border-image-source: linear-gradient(45deg, var(--colour-1), var(--colour-2));
-    border-image-slice: 1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0px;
-    z-index: 1;
-    pointer-events: none
-  } */
   h1,h2,h3{
     font-family: 'Work Sans', sans-serif;
     font-weight: normal;

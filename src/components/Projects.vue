@@ -69,7 +69,7 @@ export default {
 </script>
 <style lang="css">
 .projects{
-    margin-top: 40vh;
+    margin-top: 30vh;
 }
 .projects .project{
     margin-top: 3rem;
