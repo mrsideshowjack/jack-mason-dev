@@ -25,6 +25,15 @@
     font-family: 'IBM Plex Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
+  canvas{
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5;
+  }
   h1,h2,h3{
     font-family: 'Work Sans', sans-serif;
     font-weight: normal;
