@@ -92,6 +92,10 @@ export default {
             targets: '.border-css',
             opacity: 1
             })
+            .add({
+            targets: '.border-svg',
+            opacity: 0
+            })
         }
     }
 }
@@ -102,7 +106,7 @@ export default {
     content: '';
     position: fixed;
     border: calc(var(--border-width)/2) solid;
-    border-image-source: linear-gradient(45deg, var(--colour-1), var(--colour-2));
+    border-image-source: linear-gradient(90deg, var(--colour-1), var(--colour-2));
     border-image-slice: 1;
     top: 0;
     bottom: 0;
