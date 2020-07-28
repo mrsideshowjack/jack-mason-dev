@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "title": "Japanese counters quiz",
-        "href": "https://Bangou.netlify.app/",
+        "title": "Josūshi - Learn Japanese Counters",
+        "href": "http://josushi.app/",
         "wip": true,
         "date": "2020/05",
-        "description": "A side project I made to help me learn Japanese counting words. 🔰",
-        "tags": ["Vue", "PWA", "vuetify"]
+        "description": "A side project I made to help me learn Japanese counting words. Availible as a PWA, and soon as a trusted web activity on the google play store.",
+        "tags": ["Vue", "PWA", "TWA", "vuetify", "IBM Watson TTS", "Netlify"]
     },
     {
         "id": 2,
