@@ -16,14 +16,19 @@
       aria-label="LinkedIn Link"
       :href="linkedinUrl"
     ><IconLinkedin class="social-icon-img" /></a>
+    <a
+      aria-label="Codepen Link"
+      :href="codepenUrl"
+    ><IconCodepen class="social-icon-img" /></a>
   </div>
 </template>
 
 <script>
 import IconGithub from '@/assets/img/icons/icon-logo-github.svg'
-import IconTwitter from '@/assets/img/icons/icon-logo-twitter.svg'
+import IconTwitter from '@/assets/img/icons/icon-logo-twitter.svg' 
 import IconInstagram from '@/assets/img/icons/icon-logo-instagram.svg'
 import IconLinkedin from '@/assets/img/icons/icon-logo-linkedin.svg'
+import IconCodepen from '@/assets/img/icons/icon-logo-codepen.svg'
 
 export default {
     name: 'SocialLinks',
@@ -31,14 +36,16 @@ export default {
         IconGithub,
         IconTwitter,
         IconInstagram,
-        IconLinkedin
+        IconLinkedin,
+        IconCodepen
     },
     data() { 
         return { 
             githubUrl: process.env.GRIDSOME_GITHUB_URL,
             twitterUrl: process.env.GRIDSOME_TWITTER_URL,
             instagramUrl: process.env.GRIDSOME_INSTAGRAM_URL,
-            linkedinUrl: process.env.GRIDSOME_LINKEDIN_URL
+            linkedinUrl: process.env.GRIDSOME_LINKEDIN_URL,
+            codepenUrl: process.env.GRIDSOME_CODEPEN_URL
         }
     }
 }
