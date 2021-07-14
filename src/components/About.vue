@@ -18,12 +18,14 @@
     </p>
     <p>Here are some of the technologies I am experienced with:</p>
     <ul>
-      <li>HTML5, CSS, JS, ES6 etc</li>
+      <li>Accessable HTML5, CSS, JS, ES6</li>
       <li>SPA’s with VueJS, React, Polymer</li>
+      <li>SSR with nuxt.js</li>
       <li>Git, CI Services,  Gulp & webpack</li>
       <li>REST & graphQL</li>
-      <li>Backends with Node & server-less functions</li>
+      <li>Backends with NodeJS & server-less lambda functions</li>
       <li>Databases from DB2 to MongoDB</li>
+      <li>Jamstack with gridsome, jekyll</li>
       <li>IBM Cloud, Google Cloud Platform & Azure</li>
       <li>Sketch, Figma + Photoshop</li>
     </ul>
