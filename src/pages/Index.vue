@@ -1,27 +1,30 @@
 <template>
-  <main>
+  <div>
+    <main>
+      <section class="hero">
+        <g-image
+          class="avatar"
+          alt="Me"
+          src="~/assets/img/avatar.min.jpg"
+          width="135"
+          height="135"
+        />
+
+        <span class="title"><h1>Hi, I’m Jack </h1><IconHand class="icon-hand" /></span>
+        <h2 class="sub-title">
+          Full Stack Developer
+        </h2>
+
+        <SocialLinks />
+        <IconChevronDown class="icon-chevron-down" />
+      </section>
+
+      <About />
+      <Projects />
+    </main>
     <Border />
-    <section class="hero">
-      <g-image
-        class="avatar"
-        alt="Me"
-        src="~/assets/img/avatar.min.jpg"
-        width="135"
-        height="135"
-      />
-
-      <span class="title"><h1>Hi, I’m Jack </h1><IconHand class="icon-hand" /></span>
-      <h2 class="sub-title">
-        Full Stack Developer
-      </h2>
-
-      <SocialLinks />
-      <IconChevronDown class="icon-chevron-down" />
-    </section>
-
-    <About />
-    <Projects />
-  </main>
+    <Matter />
+  </div>
 </template>
 
 <script>
@@ -31,6 +34,7 @@ import Border from '~/components/Border.vue'
 import SocialLinks from '~/components/SocialLinks.vue'
 import About from '~/components/About.vue'
 import Projects from '~/components/Projects.vue'
+import Matter from '~/components/Matter.vue'
 export default {
   components: {
     SocialLinks,
@@ -38,7 +42,8 @@ export default {
     IconChevronDown,
     Border,
     About,
-    Projects
+    Projects,
+    Matter
   },
   mounted(){
     this.animWave();
@@ -101,6 +106,9 @@ export default {
 }
 </script>
 <style lang="css">
+main * {
+  /* z-index: 1; */
+}
 .hero{
   height: calc(100vh - var(--border-width)*2 - var(--body-padding));
   display: flex;
