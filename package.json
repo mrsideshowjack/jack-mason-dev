@@ -16,7 +16,6 @@
     "gridsome-plugin-pwa": "^0.0.17"
   },
   "devDependencies": {
-    "@intlify/vue-i18n-loader": "^3.3.0",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-gridsome": "^1.4.11",
