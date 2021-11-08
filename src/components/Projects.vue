@@ -1,6 +1,6 @@
 <template>
   <section class="projects">
-    <h2>h2. Projects</h2>
+    <h2>h2. {{ $t('projects.title') }}</h2>
     <div
       v-for="edge in $static.projects.edges"
       :key="edge.node.id"
@@ -46,7 +46,7 @@
 
 <static-query>
 query {
-  projects: allProjects(sortBy: "date", order: DESC) {
+  projects: allProjects(sortBy: "id", order: DESC) {
     edges {
       node {
         id

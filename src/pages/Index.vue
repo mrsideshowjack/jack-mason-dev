@@ -2,6 +2,7 @@
   <main>
     <Border />
     <section class="hero">
+      <LocaleSwitcher class="locale-switcher" />
       <g-image
         class="avatar"
         alt="Me"
@@ -10,9 +11,9 @@
         height="135"
       />
 
-      <span class="title"><h1>Hi, I’m Jack </h1><IconHand class="icon-hand" /></span>
+      <span class="title"><h1>{{ $t('intro') }} </h1><IconHand class="icon-hand" /></span>
       <h2 class="sub-title">
-        Full Stack Developer
+        {{ $t('role') }}
       </h2>
 
       <SocialLinks />
@@ -31,6 +32,7 @@ import Border from '~/components/Border.vue'
 import SocialLinks from '~/components/SocialLinks.vue'
 import About from '~/components/About.vue'
 import Projects from '~/components/Projects.vue'
+import LocaleSwitcher from '../components/LocaleSwitcher.vue'
 export default {
   components: {
     SocialLinks,
@@ -38,7 +40,8 @@ export default {
     IconChevronDown,
     Border,
     About,
-    Projects
+    Projects,
+    LocaleSwitcher
   },
   mounted(){
     this.animWave();
@@ -106,6 +109,9 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+.hero .locale-switcher{
+  align-self: flex-end;
 }
 .hero .avatar{
   border: 3px solid var(--colour-1);

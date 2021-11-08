@@ -10,11 +10,13 @@
     "lint": "eslint \"src/**/*.+(js|vue)\" --fix"
   },
   "dependencies": {
-    "animejs": "^3.2.0",
+    "animejs": "^3.2.1",
     "gridsome": "^0.7.23",
+    "gridsome-plugin-i18n": "^1.6.0",
     "gridsome-plugin-pwa": "^0.0.17"
   },
   "devDependencies": {
+    "@intlify/vue-i18n-loader": "^3.3.0",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-gridsome": "^1.4.11",
