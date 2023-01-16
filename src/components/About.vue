@@ -10,15 +10,16 @@
     <p>{{ $t("about.tech") }}</p>
     <ul>
       <li>Accessable HTML5, CSS, JS, ES6</li>
-      <li>SPA's with VueJS, React, Polymer</li>
-      <li>SSR with nuxt.js</li>
-      <li>Git, CI Services, Gulp & webpack</li>
-      <li>REST & graphQL</li>
+      <li>SPA's with VueJS, React & TypeScript</li>
+      <li>SSR with NuxtJS</li>
+      <li>Git, CI Services, Travis/Jenkins & webpack</li>
+      <li>REST & GraphQL</li>
       <li>Backends with NodeJS & server-less lambda functions</li>
-      <li>Databases from DB2 to MongoDB</li>
+      <li>Database management from MongoDB to DB2</li>
+      <li>Extensive testing with Jest & Cypress</li>
       <li>Jamstack with gridsome, jekyll</li>
       <li>IBM Cloud, Google Cloud Platform & Azure</li>
-      <li>Sketch, Figma + Photoshop</li>
+      <li>Figma, Sketch & Photoshop</li>
     </ul>
   </section>
 </template>
