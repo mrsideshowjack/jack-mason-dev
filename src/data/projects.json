@@ -16,7 +16,7 @@
         "wip": false
     },
     {
-        "date": "2020/05",
+        "date": "2020",
         "description": "A side project I made to help me learn Japanese counting words. Available as a installable offline PWA, and as a trusted web activity on the google play store.",
         "href": "https://josushi.app/",
         "id": 2,
