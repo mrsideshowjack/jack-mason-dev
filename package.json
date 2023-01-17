@@ -2,11 +2,11 @@
   "name": "jack-mason-dev",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
-    "serve": "gridsome develop",
-    "start": "gridsome develop",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider gridsome build",
+    "serve": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
+    "develop": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
+    "explore": "NODE_OPTIONS=--openssl-legacy-provider gridsome explore",
     "lint": "eslint \"src/**/*.+(js|vue)\" --fix"
   },
   "dependencies": {
