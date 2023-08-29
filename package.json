@@ -6,6 +6,7 @@
     "serve": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
     "start": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
     "develop": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
     "explore": "NODE_OPTIONS=--openssl-legacy-provider gridsome explore",
     "lint": "eslint \"src/**/*.+(js|vue)\" --fix"
   },
