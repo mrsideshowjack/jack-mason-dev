@@ -1,5 +1,22 @@
 [
     {
+        "date": "2022/2022",
+        "description": "From August 2021 I had been acting as a technical project lead on a large system migrations project, my responsibilities included everything from the POC, designing the atchetectre and leading the delivery to stakeholders working closly with my team and the PO",
+        "href": "",
+        "id": 4,
+        "tags": [
+            "Nuxt",
+            "IBM",
+            "NodeJS",
+            "Redis",
+            "OpenShift",
+            "i18n",
+            "IBM Carbon Design"
+        ],
+        "title": "IBM Partnerworld Content",
+        "wip": false
+    },
+    {
         "date": "2019/2020",
         "description": "I worked on this project with my team at IBM for around a year from its inception. While I cannot claim any credit for the entire thing as it was a team effort; I contributed most to the front end of the app.",
         "href": "https://www.ibm.com/partnerworld/search",
@@ -41,6 +58,7 @@
             "Gridsome",
             "animeJS",
             "PWA",
+            "i18n",
             "Netlify"
         ],
         "title": "Jack-Mason.dev",
