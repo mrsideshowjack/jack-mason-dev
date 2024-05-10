@@ -1,5 +1,19 @@
 [
     {
+        "date": "2023/2024",
+        "description": "During my time at Rakuten in the GORA UI team, I was the primary contibuter to the Lesson product over a number of major projects. Adding features such as use voice (reviews) and improving the SEO.",
+        "href": "https://gora.golf.rakuten.co.jp/lesson/school/",
+        "id": 5,
+        "tags": [
+            "Nuxt",
+            "Vuex / Pina",
+            "storybook",
+            "Jenkins",
+        ],
+        "title": "Rakuten GORA - Lesson",
+        "wip": false
+    },
+    {
         "date": "2022/2022",
         "description": "From August 2021 I had been acting as a technical project lead on a large system migrations project, my responsibilities included everything from the POC, designing the atchetectre and leading the delivery to stakeholders working closly with my team and the PO",
         "href": "",
