@@ -1,4 +1,12 @@
 module.exports = {
   extends: ['plugin:vue/recommended', 'prettier'],
-  plugins: ['vue']
+  env: {
+    node: true,
+    es6: true
+  },
+  plugins: ["gridsome"],
+  rules: {
+    "gridsome/format-query-block": "error"
+  },
+  parser: "vue-eslint-parser"
 };

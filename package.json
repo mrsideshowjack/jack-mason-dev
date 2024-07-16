@@ -2,11 +2,12 @@
   "name": "jack-mason-dev",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
-    "serve": "gridsome develop",
-    "start": "gridsome develop",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider gridsome build",
+    "serve": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
+    "develop": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider gridsome develop",
+    "explore": "NODE_OPTIONS=--openssl-legacy-provider gridsome explore",
     "lint": "eslint \"src/**/*.+(js|vue)\" --fix"
   },
   "dependencies": {
@@ -16,10 +17,11 @@
     "gridsome-plugin-pwa": "^0.0.17"
   },
   "devDependencies": {
-    "eslint": "^7.0.0",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-gridsome": "^1.4.11",
+    "eslint-plugin-gridsome": "^1.6.2",
     "eslint-plugin-vue": "^6.2.2",
+    "vue-eslint-parser": "^9.1.0",
     "vue-svg-loader": "^0.16.0"
   }
 }

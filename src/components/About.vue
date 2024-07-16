@@ -1,24 +1,16 @@
-/* eslint-disable vue/no-v-html */
 <template>
   <section class="about">
     <h2>h2. {{ $t("about.title") }}</h2>
-    <p v-html="$t('about.p1')" />
-    <p>{{ $t("about.p2") }}</p>
-    <p v-html="$t('about.p3')" />
-    <p v-html="$t('about.p4')" />
-
+    <!-- eslint-disable-line vue/no-v-html -->
+    <p v-html="$t('about.main')" />
     <p>{{ $t("about.tech") }}</p>
     <ul>
-      <li>Accessable HTML5, CSS, JS, ES6</li>
-      <li>SPA's with VueJS, React, Polymer</li>
-      <li>SSR with nuxt.js</li>
-      <li>Git, CI Services, Gulp & webpack</li>
-      <li>REST & graphQL</li>
-      <li>Backends with NodeJS & server-less lambda functions</li>
-      <li>Databases from DB2 to MongoDB</li>
-      <li>Jamstack with gridsome, jekyll</li>
-      <li>IBM Cloud, Google Cloud Platform & Azure</li>
-      <li>Sketch, Figma + Photoshop</li>
+      <li
+        v-for="(skill, index) in skills"
+        :key="index"
+      >
+        {{ skill }}
+      </li>
     </ul>
   </section>
 </template>
@@ -26,6 +18,23 @@
 <script>
 export default {
   name: "About",
+  data() {
+    return {
+      skills: [
+      "Proficient in HTML5, CSS, JS, and ES6 for building websites.",
+      "Experience with VueJS, React, and TypeScript for building single-page applications.",
+      "Familiarity with NuxtJS for server-side rendering.",
+      "Committed to delivering accessible and inclusive code to ensure that websites are usable for all users.",
+      "Knowledge of Git and CI services such as Travis and Jenkins.",
+      "Familiar with webpack and experience with REST and GraphQL APIs.",
+      "Strong understanding of NodeJS, serverless lambda functions, and database management.",
+      "Experience with Jest and Cypress for testing and debugging.",
+      "Familiarity with Jamstack using Gridsome and Jekyll.",
+      "Knowledge of cloud platforms like IBM Cloud, Google Cloud Platform, and Azure.",
+      "Proficient with design software like Figma, Sketch, and Photoshop.",
+      ]
+    }
+  },
 };
 </script>
 <style lang="css"></style>

@@ -1,11 +1,8 @@
 {
     "about": {
-        "p1": "Hi, I'm Jack and I am full stack web developer currently working at IBM in London as part of the <a href='https://ibm-cio-london.github.io/studio-hiring/'>CIO sub domain</a> working on <a href='https://www.ibm.com/partnerworld/public'>PartnerWorld</a>; This is IBM's largest microsite with tens of thousands of pages and users, with mixes of legacy and brand new code bases.",
-        "p2": "I get to work on lots of exciting projects, and I am always seeking new skills and improving my existing ones. We make time in our sprints to spend time experimenting with new technologies, contributing to open source as well as going to tech meetups across London. ",
-        "p3": "I graduated from The University of Portsmouth in 2018, with a Bachelor's of Science Degree in <a href='http://psd.docstore.port.ac.uk/C2187S.pdf'>Web Technologies.",
-        "p4": "Previously I was a full stack developer with <a href='https://kn-i.com'>Knownow Information ltd</a> for almost 3 years, where I got work on projects such as <a href='https://consentua.com/'>Consentua</a> and <a href='https://entelligently.com/'>entelligently.</a>",
-        "tech": "これが経験したテクノロジーのいくつかです：",
-        "title": "私について"
+        "title": "私について",
+        "main": "Hi, I'm Jack and I am a full stack web developer currently at Rakuten in Tokyo as a UI/UX developer,  working on the frontend of the <a href='https://gora.golf.rakuten.co.jp/'> Rakuten GORA</a> site. I began my role in October 2022 and am thrilled to have the chance to fulfill my dream of living in Japan while also progressing my career toward a focus on frontend development.<br><br>Previously for almost 4 years, I was working at IBM in London as part of the <a href='https://ibm-cio-london.github.io/studio-hiring/'>CIO sub domain</a> working on <a href='https://www.ibm.com/partnerworld/public'>PartnerWorld</a>; This is IBM's largest microsite with tens of thousands of pages and users, with mixes of legacy and brand new code bases. By the time I left, I had been leading a project for over a year and mentoring juniors. I am very happy with my time at IBM, the experiences I gained, and the wonderful people I met there.<br><br>Before that, I was a full stack developer with <a href='https://kn-i.com'>Knownow Information ltd</a> for almost 3 years, where I got work on projects such as <a href='https://consentua.com/'>Consentua</a> and <a href='https://entelligently.com/'>entelligently.</a><br><br>I graduated from The University of Portsmouth in 2018, with a Bachelor's of Science Degree in <a href='http://psd.docstore.port.ac.uk/C2187S.pdf'>Web Technologies</a> where I gained the skills I use today in my profession.",
+        "tech": "これが経験したテクノロジーのいくつかです："
     },
     "intro": "ジャックです",
     "projects": {

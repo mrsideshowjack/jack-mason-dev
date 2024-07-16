@@ -31,6 +31,8 @@
         x2="100%"
         y2="0"
         stroke="url(#borderGradient)"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <line
         class="line-right"
@@ -39,6 +41,8 @@
         x2="100%"
         y2="100%"
         stroke="url(#borderGradient)"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <line
         class="line-bottom"
@@ -47,6 +51,8 @@
         x2="0"
         y2="100%"
         stroke="url(#borderGradient)"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
       <line
         class="line-left"
@@ -55,6 +61,8 @@
         x2="0"
         y2="0"
         stroke="url(#borderGradient)"
+        stroke-linecap="round"
+        stroke-linejoin="round"
       />
     </svg>
   </section>

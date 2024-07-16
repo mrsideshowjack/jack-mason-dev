@@ -1,5 +1,36 @@
 [
     {
+        "date": "2023/2024",
+        "description": "During my time at Rakuten in the GORA UI team, I was the primary contibuter to the Lesson product over a number of major projects. Adding features such as use voice (reviews) and improving the SEO.",
+        "href": "https://gora.golf.rakuten.co.jp/lesson/school/",
+        "id": 5,
+        "tags": [
+            "Nuxt",
+            "Vuex / Pina",
+            "storybook",
+            "Jenkins"
+        ],
+        "title": "Rakuten GORA - Lesson",
+        "wip": false
+    },
+    {
+        "date": "2022/2022",
+        "description": "From August 2021 I had been acting as a technical project lead on a large system migrations project, my responsibilities included everything from the POC, designing the atchetectre and leading the delivery to stakeholders working closly with my team and the PO",
+        "href": "",
+        "id": 4,
+        "tags": [
+            "Nuxt",
+            "IBM",
+            "NodeJS",
+            "Redis",
+            "OpenShift",
+            "i18n",
+            "IBM Carbon Design"
+        ],
+        "title": "IBM Partnerworld Content",
+        "wip": false
+    },
+    {
         "date": "2019/2020",
         "description": "I worked on this project with my team at IBM for around a year from its inception. While I cannot claim any credit for the entire thing as it was a team effort; I contributed most to the front end of the app.",
         "href": "https://www.ibm.com/partnerworld/search",
@@ -16,7 +47,7 @@
         "wip": false
     },
     {
-        "date": "2020/05",
+        "date": "2020",
         "description": "A side project I made to help me learn Japanese counting words. Available as a installable offline PWA, and as a trusted web activity on the google play store.",
         "href": "https://josushi.app/",
         "id": 2,
@@ -41,6 +72,7 @@
             "Gridsome",
             "animeJS",
             "PWA",
+            "i18n",
             "Netlify"
         ],
         "title": "Jack-Mason.dev",
